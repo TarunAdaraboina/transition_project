@@ -1,0 +1,99 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    height: 64px; 
+    padding:  20px;
+}
+
+.chat-feed {
+    font-family: Inter;
+    font-size: 17.5px;
+    font-weight: 500;
+    color: #8A8EA6;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.owner-container,
+.admin-container,
+.logout-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100%; 
+    gap: 10px;
+}
+
+.owner-container {
+    height: 100%; 
+}
+
+.owner {
+    color: #44486D;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #FCCC55;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.admin-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 100%; 
+}
+
+.admin {
+    background-color: #E553BC;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 15px;
+}
+
+.admin-name {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8A8EA6;
+}
+
+.avatar-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.settings-icon,
+.logout-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.logout-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100%; 
+}
+
+.logout-button {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    color: #8A8EA6;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
